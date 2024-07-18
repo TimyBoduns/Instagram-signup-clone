@@ -1,0 +1,126 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #737373;
+}
+.container{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #333333;
+    margin-top: 20px;
+    padding: 0  40px;
+    
+}
+.container > *{
+    margin-bottom: 20px;
+}
+
+.login{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5px;
+}
+.btn{
+    width: 100%;
+    padding: 6.5px 0;
+    border: none;
+    border-radius: 8px;
+}
+.relative{
+    position: relative;
+}
+.relative > div{
+    position: absolute;
+    top: -16px;
+    background-color: white;
+    padding: 4px 8px;
+    transform: translate(143px);
+}
+.login >  img{
+    width: 23px;
+}
+.container > *{
+    margin-bottom: 20px;
+}
+.container > img{
+    width: 50%;
+    margin-top: 35px;
+}
+.bold-text{
+    font-weight: 450;
+    color: #737373;
+    font-size: 1.5rem;
+}
+.input{
+    width: 100%;
+    height: 35px;
+    border: 1;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #c9c4c4;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+}
+.input:focus{
+    border: 2px solid #868585;
+}
+.input:focus::placeholder{
+    transform: translateY(-10px);
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 157, 219)
+}
+.small-text{
+    font-size: 15px;
+}
+
+.Signup{
+    background-color: #048de7;
+    color: rgba(245, 245, 245, 0.96);
+}
+.btn:hover{
+    transform: translateY(5px);
+    scale: 1;
+}
+.btn{
+    border-radius: 5px;
+    background-color: rgb(51, 134, 212);
+    color: white;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+form {
+    border-radius: 2px;
+}
+.btn:active{
+    scale: 1.1;
+}
+.Placeholder{
+    font-weight: 300;
+    font-size: 12px;
+    color: #333333;
+}
+.relative > p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.relative > input:valid ~ p{
+    top: -6.5px;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.relative > input:focus ~ p{
+    top: -6.5px;
+        background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
